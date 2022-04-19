@@ -1,0 +1,16 @@
+{
+  "name": "buid-a-11ty-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+ "scripts": {
+    "start": "eleventy --serve",
+    "build-production": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}

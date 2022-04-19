@@ -1,0 +1,5 @@
+# dependencies installed by npm
+node_modules
+
+# macOS related files
+.DS_Store
