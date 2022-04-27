@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{{ title }}</title>
-	<link rel="stylesheet" href="style.css">
+	{% include 'title-and-meta.njk' %}
+	<link rel="stylesheet" href="https://11ty-theme-by-design-2-seo.netlify.app/assets/css/style.css">
 </head>
 <body>
-	<header>
-		<h1>{{ title }}</h1>
-	</header>
+	{% include 'header.njk' %}
 	<main>
 		{{ content | safe }}
 	</main>
-	<footer>
-		<p>&copy; 2022 Design 2 SEO</p>
-	</footer>
+	{% include 'footer.njk' %}
 </body>
 </html>
